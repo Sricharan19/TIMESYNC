@@ -1,0 +1,122 @@
+
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		848F39BE2D479081003794D0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 848F39B72D479081003794D0 /* Preview Assets.xcassets */; };
+		848F39BF2D479081003794D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 848F39B92D479081003794D0 /* Assets.xcassets */; };
+		848F39C02D479081003794D0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F39BA2D479081003794D0 /* ContentView.swift */; };
+		848F39C12D479081003794D0 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F39BB2D479081003794D0 /* Item.swift */; };
+		848F39C22D479081003794D0 /* timeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F39BC2D479081003794D0 /* timeApp.swift */; };
+		848F39C52D4790A4003794D0 /* TimezoneInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F39C42D479098003794D0 /* TimezoneInputViewController.swift */; };
+		848F39C72D47915D003794D0 /* TimeTranslationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F39C62D479152003794D0 /* TimeTranslationViewController.swift */; };
+		848F39C92D479194003794D0 /* MessageGenerationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F39C82D479184003794D0 /* MessageGenerationViewController.swift */; };
+		848F39CC2D479238003794D0 /* TimezoneModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F39CB2D479227003794D0 /* TimezoneModel.swift */; };
+		848F39D02D47F7F4003794D0 /* PermissionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F39CF2D47F7E0003794D0 /* PermissionManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		848F399B2D479055003794D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 848F39802D479050003794D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 848F39872D479050003794D0;
+			remoteInfo = time;
+		};
+		848F39A52D479055003794D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 848F39802D479050003794D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 848F39872D479050003794D0;
+			remoteInfo = time;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		848F39882D479050003794D0 /* time.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = time.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		848F399A2D479055003794D0 /* timeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = timeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		848F39A42D479055003794D0 /* timeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = timeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		848F39B72D479081003794D0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		848F39B92D479081003794D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		848F39BA2D479081003794D0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		848F39BB2D479081003794D0 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		848F39BC2D479081003794D0 /* timeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timeApp.swift; sourceTree = "<group>"; };
+		848F39C42D479098003794D0 /* TimezoneInputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimezoneInputViewController.swift; sourceTree = "<group>"; };
+		848F39C62D479152003794D0 /* TimeTranslationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeTranslationViewController.swift; sourceTree = "<group>"; };
+		848F39C82D479184003794D0 /* MessageGenerationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageGenerationViewController.swift; sourceTree = "<group>"; };
+		848F39CB2D479227003794D0 /* TimezoneModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimezoneModel.swift; sourceTree = "<group>"; };
+		848F39CF2D47F7E0003794D0 /* PermissionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		848F399D2D479055003794D0 /* timeTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = timeTests;
+			sourceTree = "<group>";
+		};
+		848F39A72D479055003794D0 /* timeUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = timeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		848F39852D479050003794D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		848F39972D479055003794D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		848F39A12D479055003794D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		848F397F2D479050003794D0 = {
+			isa = PBXGroup;
+			children = (
+				848F39BD2D479081003794D0 /* time */,
+				848F399D2D479055003794D0 /* timeTests */,
+				848F39A72D479055003794D0 /* timeUITests */,
+				848F39892D479050003794D0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		848F39892D479050003794D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				848F39882D479050003794D0 /* time.app */,
+				848F399A2D479055003794D0 /* timeTests.xctest */,
+				848F39A42D479055003794D0 /* timeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		848F39B82D479081003794D0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				848F39B72D479081003794D0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		848F39BD2D4
